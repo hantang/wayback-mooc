@@ -1,0 +1,11 @@
+# macos
+.DS_Store
+
+# ide
+.vscode/
+.idea/
+
+# others
+temp/
+todo/
+src/
