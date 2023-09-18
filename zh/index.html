@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AC - 公开课程备份</title>
+    <title>公开课程备份</title>
     <link rel="stylesheet" type="text/css" href="/wayback-mooc/css/style.css" />
 </head>
 
@@ -22,10 +22,22 @@
             <h3>机器学习</h3>
             <ul>
                 <li>斯坦福大学 UFLDL (吴恩达): <a href="/wayback-mooc/stanford-ufldl/">镜像</a></li>
+                <ul>
+                    <li><a href="/wayback-mooc/stanford-ufldl/tutorial/">新版本</a></li>
+                    <li><a href="/wayback-mooc/stanford-ufldl/wiki/UFLDL_Tutorial/">旧版本</a></li>
+                    <li><a href="/wayback-mooc/stanford-ufldl/wiki/UFLDL教程/">旧版本（中文翻译）</a></li>
+                </ul>
             </ul>
         </section>
     </main>
-    <footer>&copy; 2023</footer>
+    <footer>
+        <div>
+            <a href="https://hantang.github.io" >hantang</a> &copy; 2023-<span id="footerCopyrightYear">2023</span>
+        </div>
+    </footer>
+    <script> 
+        document.getElementById('footerCopyrightYear').innerHTML = new Date().getFullYear() + '';
+    </script>
 </body>
 
 </html>

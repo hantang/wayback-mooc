@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AC - Open Course Archives</title>
+    <title>Open Course Archives</title>
     <link rel="stylesheet" type="text/css" href="/wayback-mooc/css/style.css" />
 </head>
 
@@ -21,11 +21,23 @@
         <section>
             <h3>Machine Learning</h3>
             <ul>
-                <li>Stanford UFLDL (by Andrew Ng): <a href="/wayback-mooc/stanford-ufldl/">mirror</a></li>
+                <li>Stanford UFLDL (by Andrew Ng): <a href="/wayback-mooc/stanford-ufldl/">mirror</a>
+                    <ul>
+                        <li><a href="/wayback-mooc/stanford-ufldl/tutorial/">new version</a></li>
+                        <li><a href="/wayback-mooc/stanford-ufldl/wiki/UFLDL_Tutorial/">old version</a></li>
+                    </ul>
+                </li>
             </ul>
         </section>
     </main>
-    <footer>&copy; 2023</footer>
+    <footer>
+        <div>
+            <a href="https://hantang.github.io" >hantang</a> &copy; 2023-<span id="footerCopyrightYear">2023</span>
+        </div>
+    </footer>
+    <script> 
+        document.getElementById('footerCopyrightYear').innerHTML = new Date().getFullYear() + '';
+    </script>
 </body>
 
 </html>
